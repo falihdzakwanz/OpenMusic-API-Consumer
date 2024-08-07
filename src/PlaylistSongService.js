@@ -12,7 +12,7 @@ class PlaylistSongService {
       text: `
             SELECT 
                 playlists.id AS id,
-                playlists.name AS name, 
+                playlists.name AS name 
             FROM playlists
             JOIN users ON playlists.owner = users.id
             WHERE users.id = $1
