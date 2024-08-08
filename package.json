@@ -2,9 +2,10 @@
   "name": "open-music-api-consumer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/consumer.js",
   "scripts": {
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "start": "node ./src/consumer.js"
   },
   "keywords": [],
   "author": "Falih Dzakwan",
